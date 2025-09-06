@@ -61,10 +61,10 @@ const [taskList, setTaskList] = useState<Task[]>([]);
 
 * **No Card.tsx**
 
-  * `isDeleted` (ou equivalente) → controla se a tarefa está concluída ou não.
+  * `isDeleted` → controla se a tarefa está concluída ou não.
 
 ```tsx
-const [isCompleted, setIsCompleted] = useState(false);
+const [isCompleted, setDeleted] = useState(false);
 ```
 
 ---
